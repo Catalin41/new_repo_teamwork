@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+li{
+    width:200px;
+    height:30px;
+    padding-top: 10px;
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+
+li:nth-child(1){
+    background-color:green;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    border:1px solid black;
+    width:700px;
+    margin-top:20px;
+    margin-left:20px;
+   
+}
